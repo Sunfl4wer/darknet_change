@@ -3,9 +3,9 @@ import glob
 import matplotlib.pyplot as plt
 import numpy as np
 
-path_to_label_file = "S:/learning/darknet_alexeyab_one/data/objects/"
-true_positive_stat_file = "true_positive_stat(1).txt"
-obj_names = "S:/learning/darknet_alexeyab_one/obj.names"
+path_to_label_file = "data/objects/" # path to your images and label folder
+true_positive_stat_file = "true_positive_stat.txt" # text file that return the true positive anchors
+obj_names = "obj.names" # label file 
 
 def readFile(filename):
     true_positive = []
